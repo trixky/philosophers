@@ -6,9 +6,9 @@ Implementation of the [dining philosophers problem](https://en.wikipedia.org/wik
 
 ## Three programs
 
-- pilohopher_one : There is a fork between each philosopher, using threads and mutex.
-- pilohopher_two : All forks are in the middle of the table, using threads and semaphore.
-- pilohopher_three : All forks are in the middle of the table, using proce and semaphore.
+- pilohopher_one : There is a fork between each philosopher, *using threads and mutex.*
+- pilohopher_two : All forks are in the middle of the table, *using threads and semaphore.*
+- pilohopher_three : All forks are in the middle of the table, *using proce and semaphore.*
 
 ## Usage
 
@@ -29,7 +29,7 @@ make -C philo_one && make -C philo_two && make -C philo_three
 
 > In that order.
 
-- Number of philosophers and forks.
+- N*umber of philosophers and forks.
 - Time it takes a philosopher to die after eating in ms.
 - Time it takes a philosopher to eat.
 - Time it takes a philosopher to sleep after eating.
