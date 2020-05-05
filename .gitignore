@@ -1,0 +1,4 @@
+*.o
+philo_one/philosopher_one
+philo_two/philosopher_two
+philo_three/philosopher_three
