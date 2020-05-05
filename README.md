@@ -25,6 +25,16 @@ make -C philo_one && make -C philo_two && make -C philo_three
 ./philo_three/philosopher_three 6 2050 1000 1000
 ```
 
+## Arguments
+
+> In that order.
+
+- Number of philosophers and forks.
+- Time it takes a philosopher to die after eating in ms.
+- Time it takes a philosopher to eat.
+- Time it takes a philosopher to sleep after eating.
+- (optional) Stop dinner if each of the philosophers have eaten x times.
+
 ## Dining philosophers problem
 
 In computer science, the dining philosophers problem is an example problem often used in concurrent algorithm design to illustrate synchronization issues and techniques for resolving them. It was originally formulated in 1965 by Edsger Dijkstra as a student exam exercise.
