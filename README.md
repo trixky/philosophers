@@ -4,6 +4,8 @@ Implementation of the [dining philosophers problem](https://en.wikipedia.org/wik
 
 ![Recordit GIF](https://i.ibb.co/zG6cfZz/philo.gif)
 
+| time in ms | philosopher id | action |
+
 ## Three programs
 
 - pilohopher_one : There is a fork between each philosopher, *using threads and mutex.*
@@ -29,7 +31,7 @@ make -C philo_one && make -C philo_two && make -C philo_three
 
 > In that order.
 
-- N*umber of philosophers and forks.
+- Number of philosophers and forks.
 - Time it takes a philosopher to die after eating in ms.
 - Time it takes a philosopher to eat.
 - Time it takes a philosopher to sleep after eating.
