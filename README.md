@@ -1,6 +1,6 @@
 # philosophers
 
-Implementation of the [dining philosophers problem](https://en.wikipedia.org/wiki/Dining_philosophers_problem) using `threads`, `process`, `mutexes` and `semaphores` so that several programs can work on the same memory space. (macOS)
+Implementation of the [dining philosophers problem](https://en.wikipedia.org/wiki/Dining_philosophers_problem) using *threads*, *process*, *mutexes* and *semaphores* so that several programs can work on the same memory space. __(macOS)__
 
 ![Recordit GIF](https://i.ibb.co/zG6cfZz/philo.gif)
 
@@ -8,9 +8,9 @@ Implementation of the [dining philosophers problem](https://en.wikipedia.org/wik
 
 ## Three programs
 
-- pilohopher_one : There is a fork between each philosopher, *using threads and mutex.*
-- pilohopher_two : All forks are in the middle of the table, *using threads and semaphore.*
-- pilohopher_three : All forks are in the middle of the table, *using proce and semaphore.*
+- `pilohopher_one` : There is a fork between each philosopher, *using threads and mutex.*
+- `pilohopher_two` : All forks are in the middle of the table, *using threads and semaphore.*
+- `pilohopher_three` : All forks are in the middle of the table, *using proce and semaphore.*
 
 ## Usage
 
