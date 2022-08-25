@@ -2,7 +2,7 @@
 
 Implementation of the [dining philosophers problem](https://en.wikipedia.org/wiki/Dining_philosophers_problem) using *threads*, *process*, *mutexes* and *semaphores* so that several programs can work on the same memory space. __(macOS)__
 
-![Recordit GIF](https://i.ibb.co/zG6cfZz/philo.gif)
+![Recordit GIF](https://github.com/trixky/philosophers/blob/master/.demo/demo.gif?raw=true)
 
 | time in ms | philosopher id | action |
 
